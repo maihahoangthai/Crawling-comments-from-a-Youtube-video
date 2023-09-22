@@ -5,6 +5,6 @@ Bởi Youtube là một *website động* (dynamic website) và các bình luậ
 
 Chương trình sẽ sử dụng **ChromeDriver** của **Selenium WebDriver** để điều khiển và định hướng Chrome browser truy cập đến trang video của Youtube và thực hiện việc lấy về những dữ liệu mà ta mong muốn.
 
-Lưu ý, chương trình được viết vào khoảng tháng 7 năm 2022 và không có crawl reply của các comment.
+Lưu ý, chương trình được viết vào khoảng tháng 7 năm 2022 trên Google Colab và không có crawl reply của các comment. Chú ý sửa lại dường dẫn các file cho phù hợp với máy tính của bạn trước khi sử dụng.
 ## Về dữ liệu
 youtube_comment_dataset.csv: Dataset kết quả sau khi crawl một video trên Youtube vào ngày 4 tháng 7 năm 2022, chứa khoảng 3200 comment của một video tiếng Việt. Đây chỉ là một Dataset thô sơ, do đó, code trong project này còn cung cấp thêm một số thao tác xử lý dữ liệu để tham khảo.
